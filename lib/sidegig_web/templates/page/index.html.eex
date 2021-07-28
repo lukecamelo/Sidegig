@@ -1,0 +1,5 @@
+<section class="phx-hero">
+  <input type="text">
+  <button>Input</button>
+  <h2></h2>
+</section>
