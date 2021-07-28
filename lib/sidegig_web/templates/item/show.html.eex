@@ -1,0 +1,18 @@
+<h1>Show Clothing Item</h1>
+
+<ul>
+  <li>
+    <strong>Item name</strong>
+    <%= @item.name %>
+  </li>
+  <li>
+    <strong>Price paid</strong>
+    $<%= @item.price_paid %>
+  </li>
+  <li>
+    <strong>Price sold</strong>
+    $<%= @item.price_sold %>
+  </li>
+</ul>
+
+<span><%= link "Back", to: Routes.item_path(@conn, :index) %></span>

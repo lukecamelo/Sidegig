@@ -14,7 +14,7 @@ defmodule SidegigWeb.ItemView do
     %{id: item.id,
       name: item.name,
       price_paid: item.price_paid,
-      price_sold: item.price_sold,
-      sold: item.sold}
+      price_sold: item.price_sold}
+      # sold: item.sold}
   end
 end

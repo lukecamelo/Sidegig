@@ -1,0 +1,13 @@
+<div>
+  <%= form_for @changeset, Routes.item_path(@conn, :create), fn f -> %>
+    <label>
+      Name: <%= text_input f, :name %>
+    </label>
+
+    <label>
+      Price paid: <%= text_input f, :price_paid %>
+    </label>
+    
+    <%= submit "Submit" %>
+  <% end %>
+</div>
